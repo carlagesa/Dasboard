@@ -1,0 +1,72 @@
+.link-container {
+  width: 15em;
+  height: 45em;
+  margin-top: 0;
+  /* border: 2px solid white; */
+  border-radius: 13px;
+  background-color: rgba(5, 5, 64, 0.869);
+}
+
+.links {
+  list-style-type: none;
+  color: white;
+  padding-top: 20px;
+}
+.page-links {
+  padding-top: 50px;
+}
+.Pro-features {
+  width: 10em;
+  height: 12em;
+  border-radius: 9px;
+  background-color: blue;
+  margin-left: 2.3em;
+}
+.rocket-img {
+  width: 9em;
+  padding-left: 10px;
+  padding-top: -9px;
+}
+.pro-button {
+  width: 8em;
+  height: 2.5em;
+  border-radius: 5px;
+  border: none;
+  margin-left: 2.5em;
+  margin-bottom: 2.5em;
+}
+/* Start of Dashboard CSS */
+.dashboard {
+  color: white;
+  width: 64%;
+  height: 45em;
+  margin: 15em;
+  margin-top: -46em;
+  background-color: rgba(5, 5, 64, 0.879);
+}
+.dash-text {
+  padding-top: 2em;
+  padding-left: 3em;
+}
+.date {
+  padding-left: 3.9em;
+  font-size: smaller;
+}
+.search {
+  height: 2em;
+  border: none;
+  float: right;
+  margin-right: 50px;
+  margin-top: -49px;
+  border-radius: 5px;
+}
+.search::placeholder {
+  color: black;
+}
+/* Total SAles/Expenses/REvenue */
+
+.total-sales {
+  width: 15em;
+  height: 10em;
+  background-color: blue;
+}
