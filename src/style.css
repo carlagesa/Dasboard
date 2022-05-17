@@ -1,6 +1,6 @@
 .link-container {
   width: 15em;
-  height: 45em;
+  height: 55em;
   margin-top: 0;
   /* border: 2px solid white; */
   border-radius: 13px;
@@ -14,6 +14,7 @@
 }
 .page-links {
   padding-top: 50px;
+  padding-left: 45px;
 }
 .Pro-features {
   width: 10em;
@@ -39,9 +40,9 @@
 .dashboard {
   color: white;
   width: 64%;
-  height: 45em;
+  height: 55em;
   margin: 15em;
-  margin-top: -46em;
+  margin-top: -56em;
   background-color: rgba(5, 5, 64, 0.879);
 }
 .dash-text {
@@ -53,20 +54,57 @@
   font-size: smaller;
 }
 .search {
-  height: 2em;
+  height: 3em;
+  width: 20em;
   border: none;
   float: right;
-  margin-right: 50px;
+  margin-right: 13em;
   margin-top: -49px;
   border-radius: 5px;
+  background-color: blue;
 }
 .search::placeholder {
-  color: black;
+  color: white;
+  font-size: large;
 }
 /* Total SAles/Expenses/REvenue */
 
 .total-sales {
   width: 15em;
   height: 10em;
+  margin-left: 6em;
+  border-radius: 10px;
   background-color: blue;
+}
+.totals {
+  display: flex;
+}
+.total-expenses {
+  width: 15em;
+  height: 10em;
+  margin-left: 5em;
+  border-radius: 10px;
+  background-color: blue;
+}
+.total-revenue {
+  width: 15em;
+  height: 10em;
+  margin-left: 5em;
+  border-radius: 10px;
+  background-color: blue;
+}
+.sales-report {
+  width: 55em;
+  height: 25em;
+  margin-left: 6em;
+  margin-top: 4em;
+  border-radius: 10px;
+  background-color: blue;
+}
+.dash-icon {
+  display: grid;
+}
+.dash-icons {
+  width: 30px;
+  padding-bottom: 20px;
 }

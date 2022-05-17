@@ -13,6 +13,10 @@ export default function Dashboard() {
         <div className="total-expenses"></div>
         <div className="total-revenue"></div>
       </div>
+      <div className="sales-report">
+
+        
+      </div>
     </div>
   );
 }
